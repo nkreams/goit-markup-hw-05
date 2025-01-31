@@ -447,9 +447,11 @@ ul {
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0.02em;
+  margin-bottom: 16px;
 }
 .formfoot {
   gap: 24px;
+  display: flex;
 }
 .inputfoot {
   width: 264px;
@@ -460,7 +462,7 @@ ul {
   line-height: 2;
   letter-spacing: 0.04em;
   padding-left: 16px;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0, 0.15);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   color: #ffffff;
 }
@@ -486,4 +488,5 @@ placeholder {
 }
 .svgsubs {
   margin-left: 16px;
+  fill: #ffffff;
 }
