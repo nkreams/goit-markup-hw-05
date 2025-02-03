@@ -540,6 +540,9 @@ placeholder {
   border: none;
 }
 .butkasvg {
+  fill: #000;
+}
+.butkasvg {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .butkause:hover {
@@ -548,9 +551,7 @@ placeholder {
 .butkause:focus {
   fill: #ffffff;
 }
-.butkasvg {
-  fill: #000;
-}
+
 .vikparg {
   font-weight: 500;
   font-size: 16px;
