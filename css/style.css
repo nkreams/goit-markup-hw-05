@@ -587,13 +587,14 @@ placeholder {
 .nameinputs:hover {
   border-color: #4d5ae5;
 }
+.nameinputs:focus {
+  fill: #4d5ae5;
+}
+
 .namesvg {
   position: absolute;
   left: 16px;
   top: 50%;
   transform: translateY(-50%);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.namesvg:focus {
-  fill: #4d5ae5;
 }
