@@ -639,6 +639,7 @@ placeholder {
   align-items: center;
   justify-content: center;
   fill: transparent;
+  display: inline-flex;
 }
 :root {
   --highlight-color: #404bbf;
@@ -653,4 +654,5 @@ placeholder {
 }
 #user-privacy {
   display: none;
+  border: none;
 }
