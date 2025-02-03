@@ -628,6 +628,7 @@ placeholder {
   background-color: var(--highlight-color);
   border: none;
   fill: #f4f4fd;
+  display: inline-flex;
 }
 .lablpriv {
   font-size: 12px;
