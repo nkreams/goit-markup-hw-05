@@ -573,6 +573,7 @@ placeholder {
 }
 .formnameone {
   position: relative;
+  margin-bottom: 16px;
 }
 .nameinputs {
   width: 100%;
