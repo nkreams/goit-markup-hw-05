@@ -624,22 +624,6 @@ placeholder {
 :root {
   --highlight-color: #404bbf;
 }
-#user-privacy:checked + .lablpriv .spanlbl {
-  background-color: var(--highlight-color);
-  border: none;
-  fill: #f4f4fd;
-  display: inline-flex;
-}
-.lablpriv {
-  font-size: 12px;
-  line-height: 1.17;
-  letter-spacing: 0.04em;
-  color: #8e8f99;
-  display: flex;
-  align-items: center;
-  cursor: pointer;
-  display: inline-flex;
-}
 #user-privacy {
   display: none;
 }
@@ -647,19 +631,6 @@ placeholder {
   color: #4d5ae5;
 }
 
-.spanlbl {
-  width: 16px;
-  height: 16px;
-  border: 1px solid rgba(46, 47, 66, 0.4);
-  border-radius: 2px;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    border 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  align-items: center;
-  justify-content: center;
-  fill: transparent;
-  display: inline-flex;
-}
 .sendform {
   font-family: "Roboto", sans-serif;
   letter-spacing: 0.04em;
@@ -677,4 +648,33 @@ placeholder {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   display: block;
   margin: auto;
+}
+.spanlbl {
+  width: 16px;
+  height: 16px;
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  border-radius: 2px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  align-items: center;
+  justify-content: center;
+  fill: transparent;
+  display: inline-flex;
+}
+#user-privacy:checked + .lablpriv .spanlbl {
+  background-color: var(--highlight-color);
+  border: none;
+  fill: #f4f4fd;
+  display: inline-flex;
+}
+.lablpriv {
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: #8e8f99;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  display: inline-flex;
 }
