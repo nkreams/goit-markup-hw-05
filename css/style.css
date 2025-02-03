@@ -667,8 +667,8 @@ placeholder {
   align-items: center;
   justify-content: center;
   fill: transparent;
-  display: inline-flex;
   margin-right: 8px;
+  display: inline-flex;
 }
 #user-privacy:checked + .lablpriv .spanlbl {
   background-color: var(--highlight-color);
@@ -683,5 +683,8 @@ placeholder {
   color: #8e8f99;
   align-items: center;
   cursor: pointer;
+  display: inline-flex;
+}
+.svglbl {
   display: inline-flex;
 }
