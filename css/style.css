@@ -549,7 +549,7 @@ placeholder {
   fill: #ffffff;
 }
 .butkasvg {
-  fill: #ffffff;
+  fill: #000;
 }
 .vikparg {
   font-weight: 500;
@@ -661,8 +661,8 @@ placeholder {
   align-items: center;
   justify-content: center;
   fill: transparent;
-  margin-right: 8px;
   display: inline-flex;
+  margin-right: 8px;
 }
 #user-privacy:checked + .lablpriv .spanlbl {
   background-color: var(--highlight-color);
@@ -675,7 +675,6 @@ placeholder {
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: #8e8f99;
-  display: flex;
   align-items: center;
   cursor: pointer;
   display: inline-flex;
