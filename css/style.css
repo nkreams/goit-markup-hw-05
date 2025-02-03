@@ -597,9 +597,6 @@ placeholder {
 .namesvg:focus {
   fill: #4d5ae5;
 }
-.nameinputs:focus + svg use {
+.nameinputs:focus + .namesvg use {
   fill: #4d5ae5;
-}
-.namesvg {
-  fill: #000;
 }
