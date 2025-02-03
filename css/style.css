@@ -629,6 +629,7 @@ placeholder {
 }
 .private {
   color: #4d5ae5;
+  margin-left: 8px;
 }
 
 .sendform {
@@ -660,6 +661,7 @@ placeholder {
   align-items: center;
   justify-content: center;
   fill: transparent;
+  margin-right: 8px;
   display: inline-flex;
 }
 #user-privacy:checked + .lablpriv .spanlbl {
