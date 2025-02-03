@@ -573,7 +573,6 @@ placeholder {
 }
 .formnameone {
   position: relative;
-  margin-bottom: 16px;
 }
 .nameinputs {
   width: 100%;
@@ -614,4 +613,7 @@ placeholder {
 }
 .textreaform:focus {
   border-color: #4d5ae5;
+}
+.formdivcom {
+  margin-bottom: 16px;
 }
