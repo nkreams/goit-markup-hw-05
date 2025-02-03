@@ -594,3 +594,12 @@ placeholder {
   transform: translateY(-50%);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+.namesvg:focus {
+  fill: #4d5ae5;
+}
+.nameinputs:focus + svg use {
+  fill: #4d5ae5;
+}
+.namesvg {
+  fill: #000;
+}
